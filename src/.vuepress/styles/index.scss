@@ -1,0 +1,29 @@
+#main-content table:not(.nocenter) {
+  margin-left: auto;
+  margin-right: auto;
+  width: max-content;
+}
+
+:root:lang(ja-JP) {
+  #main-content {
+    .vp-page-title h1,
+    .theme-hope-content {
+      font-family: 'Yu Gothic', 'MS Gothic', 'Yu Mincho', var(--font-family);
+    }
+  }
+}
+
+:root[data-theme='dark'] {
+  .dark-inverse,
+  img[src$='#dark-inverse'] {
+    filter: invert(100%);
+  }
+}
+
+.latex-svg-wrapper img {
+  padding: 1em;
+}
+
+.katex .text {
+  font-family: var(--font-family);
+}
