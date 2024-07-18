@@ -89,13 +89,13 @@ $$
   I_{\liminf\limits_{n \to \infty} A_n}
   &= I_{\lim\limits_{n \to \infty} \bigcap\limits_{k = n}^\infty A_k} 
   = \lim_{n \to \infty} I_{\bigcap\limits_{k = n}^\infty A_k} 
-  = \lim_{n \to \infty} \inf_{k \ge n} I(A_k) 
-  = \liminf_{n \to \infty} I(A_k)，\\
+  = \lim_{n \to \infty} \inf_{k \ge n} I_{A_k} 
+  = \liminf_{n \to \infty} I_{A_k}，\\
   I_{\limsup\limits_{n \to \infty} A_n}
   &= I_{\lim\limits_{n \to \infty} \bigcup\limits_{k = n}^\infty A_k} 
   = \lim_{n \to \infty} I_{\bigcup\limits_{k = n}^\infty A_k} 
-  = \lim_{n \to \infty} \sup_{k \ge n} I(A_k)
-  = \limsup_{n \to \infty} I(A_k)。
+  = \lim_{n \to \infty} \sup_{k \ge n} I_{A_k}
+  = \limsup_{n \to \infty} I_{A_k}。
 \end{aligned}
 $$
 
@@ -220,7 +220,7 @@ $A_n^* \subset A_n$ 是显然的，故而 $\bigcup\limits_{n = 1}^\infty A_n^* \
 
 对任意 $x \in \bigcup\limits_{n = 1}^\infty A_n$，存在某个指标 $k$ 使得 $x \in A_k$。若 $x \in A_1$ 则 $x \in A_1 \subset \bigcup\limits_{n = 1}^\infty A_n^*$。若 $x \notin A_1$，取
 $$
-  k_0 = \min_k\set{k}{x \in A_k} \ge 2，
+  k_0 = \arg\min_k\set{k}{x \in A_k} \ge 2，
 $$
 则 $x \in A_{k_0}$ 且 $x \notin A_1, A_2, \cdots, A_{k_0 - 1}$，即 $x \in A_{k_0}^* \subset \bigcup\limits_{n = 1}^\infty A_n^*$。
 
