@@ -220,7 +220,7 @@ $A_n^* \subset A_n$ 是显然的，故而 $\bigcup\limits_{n = 1}^\infty A_n^* \
 
 对任意 $x \in \bigcup\limits_{n = 1}^\infty A_n$，存在某个指标 $k$ 使得 $x \in A_k$。若 $x \in A_1$ 则 $x \in A_1 \subset \bigcup\limits_{n = 1}^\infty A_n^*$。若 $x \notin A_1$，取
 $$
-  k_0 = \arg\min_k\set{k}{x \in A_k} \ge 2，
+  k_0 = \min_k\set{k}{x \in A_k} \ge 2，
 $$
 则 $x \in A_{k_0}$ 且 $x \notin A_1, A_2, \cdots, A_{k_0 - 1}$，即 $x \in A_{k_0}^* \subset \bigcup\limits_{n = 1}^\infty A_n^*$。
 
