@@ -9,5 +9,4 @@ export default {
   '\\Re': '\\operatorname{Re}',
   '\\Im': '\\operatorname{Im}',
   '\\set': '\\left\\{\\, #1 \\,\\middle|\\, #2 \\,\\right\\}',
-  '\\Nx': '{\\N^{\\times}}',
 }
