@@ -5,7 +5,7 @@ import head from './head.js'
 import math from './md-plugins/math.js'
 
 export default defineUserConfig({
-  base: '/',
+  base: '/legacy-blog',
   lang: 'zh-CN',
   title: 'Rehnertz',
   description: '基于 vuepress-theme-hope 的个人博客。',
