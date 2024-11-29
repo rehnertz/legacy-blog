@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://rehnertz.github.io/sitemap.xml
+Sitemap: https://rehnertz.github.io/legacy-blog/sitemap.xml
